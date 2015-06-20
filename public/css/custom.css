@@ -1,0 +1,524 @@
+.content{
+    padding:20px;
+}
+.no-padding{
+    padding: 0;
+}
+.separator{
+    width: 100%;
+    height: 20px;
+    border-bottom: 1px dashed ;
+}
+.border-orange{
+    border-color: #FFA500;
+}
+.panel-white{
+    background-color: #FFF;
+    border: 1px solid #F2F2F2;
+}
+.wrap-in{
+    padding: 15px;
+}
+.title-sub{
+    font-size: 13pt;
+    color: #A8A8A8;
+    padding: 5px 0;
+}
+.list{
+    list-style: none;
+    padding: 0;
+}
+.list-item{
+    padding: 10px 40px;
+}
+.list-item:first-child{
+    padding: 20px 40px 10px 40px;
+}
+.list-item a:hover{
+    text-decoration: none;
+    color: #FFB800;
+}
+.list-item-link{
+    text-decoration: none;
+    color: #767676;
+    display: block;
+}
+.list-item :hover{
+
+}
+.list-item-link :active{
+    text-decoration: none;
+    color: #FFB800;
+}
+.green{
+    color:#449D44;
+}
+.main-nav{
+    margin: 0;
+    height: 80px;
+    background-color: #444;
+    border-radius: 0;
+}
+.child-nav{
+    height: 48px;
+    background-color: #F7F7F7;
+}
+.header-container{
+    padding: 20px;
+}
+.header{
+    background-color: #FFAE00;
+    min-height: 336px;
+    overflow: auto;
+}
+.header-title-container{
+    margin: 30px;
+}
+.header-title{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #FFF;
+    margin-bottom: 0.5em;
+    padding: 0;
+    font-size: 3em;
+    text-align: center;
+}
+.header-title-desc{
+    text-align: center;
+    font-size: 1.3em;
+    color: #CA6400;
+    text-shadow: 1px 1px 1px #FFB988;
+}
+.header-search-container{
+    margin: auto;
+    max-width: 550px;
+}
+.header-button-container{
+    margin:auto;
+    max-width: 300px;
+}
+.header-button{
+    width: 150px;
+    height: 44px;
+    font-size: 1.5em;
+    font-weight: 400;
+    border-bottom: 3px solid #549954;
+}
+.or{
+    padding: 5px;
+    text-align: center;
+    color: #CA6400;
+    text-shadow: 1px 1px 1px #FFB988;
+}
+.popular-container{
+    min-height: 288px;
+    background-color: #F9F9F9;
+    border-bottom: 1px solid #EFEFEF;
+}
+.small-col{
+    padding:0;
+}
+.medium-col{
+    min-width: 225px;
+}
+.home-title{
+    text-align: center;
+    padding: 20px;
+    font-size: 1.6em;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #A0A0A0;
+    text-shadow: 1px 1px 1px #FFF;
+}
+.title-text{
+    border-bottom: 1px dotted #5CB85C;
+    max-width: 200px;
+    margin: auto;
+    padding: 10px;
+}
+.title-line{
+    max-width: 50px;
+    height: 5px;
+    background-color: #5CB85C;
+    margin: auto;
+    margin-top: -3px;
+}
+.popular-content{
+    overflow: auto;
+    padding: 15px;
+}
+.popular-item{
+    background: #F5F5F5;
+    height: 120px;
+    width: 120px;
+    border: 1px solid #EFEFEF;
+}
+.category-container{
+    margin: auto;
+    max-width: 600px;
+}
+.category-item{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+.category-item-list{
+    float: left;
+    margin: 3px;
+}
+.category-item-list > a{
+    text-decoration: none;
+}
+.category-item-link{
+    display: block;
+    text-decoration: none;
+    color: #463933;
+    padding: 8px;
+    border: 1px solid #B0B0B0;
+}
+.category-item-link:hover,
+.category-item-link:visited,
+.category-item-link:active{
+    display: block;
+    text-decoration: none;
+    color: #463933;
+    padding: 8px;
+    border: 1px solid #B0B0B0;
+}
+.category-item-link-active,
+.category-item-link-active:hover,
+.category-item-link-active:active,
+.category-item-link-active:visited{
+    display: block;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #FFAE00;
+    padding: 8px;
+    border: 1px solid #FFAE00;
+}
+.recent-content{
+    clear: both;
+    padding: 30px 20px;
+    overflow: auto;
+}
+.recent-item{
+    background: rgb(244, 244, 244);
+    height: 200px;
+    width: 100%;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.recent-item-desc{
+    background-color: #444444;
+    padding: 8px;
+    border: 1px solid #444444;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 5px 1px #DDD;
+    margin-bottom: 30px;
+}
+.recent-item-title{
+    padding: 5px;
+    border-bottom: 1px solid #2F2C2C;
+    text-align: left;
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #6E6E6E;
+    text-transform: capitalize;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.recent-item-bar{
+    padding: 3px;
+    border-top: 1px solid #564D4D;
+    overflow: auto;
+}
+.item-time{
+    padding: 2px 0;
+    color: rgb(144, 144, 144);
+    font-size: 9pt;
+    text-align: left;
+}
+.item-icon{
+    font-size: 10pt;
+    color: rgb(47, 41, 41);
+    text-shadow: 1px 1px 1px #575757;
+    padding: 2px 0;
+}
+.more-button-container{
+    clear:both;
+    margin: auto;
+    max-width: 150px;
+}
+.more-button{
+    width: 120px;
+    height: 40px;
+    font-weight: 400;
+    border-bottom: 3px solid #549954;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.sold-container{
+    min-height: 288px;
+    background-color: #F9F9F9;
+    border-top: 1px solid #EFEFEF;
+}
+.footer{
+    min-height: 288px;
+    background-color: rgb(68, 68, 68);
+}
+
+/*================================================= ARTWORK =====================================*/
+
+.artwork-container{
+    overflow: auto;
+    margin: 20px 0;
+    background-color: #FDFDFD;
+    border: 1px solid #EFEFEF;
+    border-radius: 5px;
+}
+.artwork-image-container{
+    margin: 15px 0;
+}
+.artwork-image{
+    width: 100%;
+}
+.artwork-description{
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #F4F4F4;
+}
+.artwork-sidebar{
+    padding: 0px;
+}
+.artist-container{
+    background-color: #444;
+    padding: 20px;
+    overflow: auto;
+    box-shadow: 1px 2px 3px #FFF;
+    border-bottom: 1px solid #F5F5F5;
+}
+.artist-name{
+    color: #FFF;
+    font-size: 12pt;
+}
+.artist-image-container{
+    float: left;
+    margin-right: 20px;
+}
+.circle{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.artist-desc-container{
+    float:left;
+}
+.material-container{
+    padding: 20px;
+    border-bottom: 1px solid #F5F5F5;
+    overflow: auto;
+}
+.material-icon{
+    color: #AACE1B;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-size: 8pt;
+    background-color: #FFF;
+    border-radius: 2px;
+    text-shadow: 1px 1px 1px #FFF;
+    margin-bottom: 8px;
+    border: 1px solid #F2F2F2;
+}
+.auction-container{
+    padding: 20px;
+    border-bottom: 1px solid #EFEFEF;
+    background-color: #FFF;
+}
+.auction-title{
+    padding: 10px 0;
+    background-color: #F7F7F7;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    overflow: auto;
+    font-size: 11pt;
+    border: 1px solid #EAEAEA;
+    border-bottom: none;
+    color: #AEA7A7;
+    text-shadow: 1px 1px 1px #FEFEFE;
+}
+.auction-time{
+    font-size: 9pt;
+}
+.auction-price{
+    border: 1px solid #EAEAEA;
+    max-height: 206px;
+    overflow: auto;
+}
+.list-price{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.list-price-item{
+    padding: 10px;
+    border-bottom: 1px solid #EFEFEF;
+}
+.bid-container{
+    padding: 20px;
+    color: #939393;
+    overflow: auto;
+    background-color: #F7F7F7;
+    border: 1px solid #EAEAEA;
+    border-top:none;
+}
+.bid-price{
+    height: 30px;
+    padding: 0px 5px;
+    width: 48%;
+}
+.bid-button{
+    background-color: #FFAE00;
+    color: #FFF;
+    border-radius: 3px;
+    margin: 0px 0px 0px 5px;
+    padding: 0;
+    height: 30px;
+    width: 47%;
+}
+.get-it-button{
+    width: 100%;
+    background-color: #444;
+    color: #FFF;
+    padding: 15px;
+    border-bottom: 4px solid #050404;
+}
+.or-auction{
+    padding: 5px;
+    text-align: center;
+    color: #CA6400;
+    text-shadow: 1px 1px 1px #FFB988;
+    background-color: #FFF;
+    width: 50px;
+    margin: -15px auto auto;
+}
+
+/*============================== BEGIN PROFILR ================================*/
+
+.profile-container{
+    border: 1px solid #EFEFEF;
+    margin: 6px;
+    background-color: #FFF;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.profile-name{
+    padding: 20px;
+    text-align: center;
+    font-size: 18pt;
+}
+.profile-image{
+    height: 120px;
+    width: 120px;
+}
+.profile-location{
+    padding: 20px;
+    text-align: center;
+    font-size: 12pt;
+}
+.follow-container{
+    overflow: auto;
+    border-top: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+}
+.follow-item{
+    padding: 10px 20px;
+    min-height: 60px;
+}
+.follow-item-center{
+    border-right: 1px solid #EDEDED;
+    border-left: 1px solid #EDEDED;
+}
+.follow-button{
+    background-color: #444;
+    text-align: center;
+    overflow: auto;
+    padding: 20px;
+}
+.follow-button > a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+.profile-content-container{
+    border: 1px solid #EDEDED;
+    margin: 6px;
+    overflow: auto;
+}
+.profile-header{
+    text-align: center;
+    overflow: auto;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #EDEDED;
+}
+.profile-header-menu{
+    padding: 20px;
+    display: block;
+    color: #444;
+    text-decoration: none;
+}
+.profile-header-menu-active{
+    padding: 20px;
+    display: block;
+    background-color: #FFFFFF;
+    color: #FFAE00;
+    text-decoration: none;
+}
+.profile-content{
+    padding: 40px 20px;
+}
+.form-header{
+    background-color: #F8F8F8;
+    padding: 10px;
+    border: 1px solid #E9E9E9;
+    border-radius: 3px;
+}
+.nav-icon-container{
+    float: left;
+    border-right: 1px solid #E7E7E7;
+    padding: 0 15px;
+}
+.nav-icon{
+    float: left;
+    height: 40px;
+    /* background-color: #FFFFFF; */
+    padding: 8px;
+    border-radius: 50%;
+    /* width: 40px; */
+    margin: 5px 5px;
+    /* border: 1px solid #F0F0F0; */
+}
+.nav-icon-text{
+    color: #444444;;
+}
+.nav-icon-badge{
+    float: left;
+    margin: 0 0 0 -21px;
+    font-size: 8pt;
+}
+.badge-message{
+    background-color: #FFC200;
+}
+.badge-notif{
+    background-color: #FF6C6C;
+}
+.badge-sell{
+    background-color: #49FA00;
+}
+.nav-image-container{
+    float: left;
+    margin: -14px 10px 0 0;
+}
